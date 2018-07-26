@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/service_item"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/service_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:foreground="@drawable/background_image_overlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:src="@drawable/background_image_splash_activity" />
+
+    <TextView
+        android:id="@+id/service_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/montserrat"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/service_item_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Products and Services" />
+
+    <TextView
+        android:id="@+id/service_item_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/montserrat"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Learn about our offerings" />
+
+</android.support.constraint.ConstraintLayout>

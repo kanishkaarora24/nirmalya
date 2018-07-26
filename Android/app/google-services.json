@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "645513485610",
+    "firebase_url": "https://nirmalya-bc2e4.firebaseio.com",
+    "project_id": "nirmalya-bc2e4",
+    "storage_bucket": "nirmalya-bc2e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645513485610:android:002501c10a3a8390",
+        "android_client_info": {
+          "package_name": "com.nirmalya.enactus.nirmalya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645513485610-opn0bmt4iv3a61s65o1ap4pvit3bpjac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nirmalya.enactus.nirmalya",
+            "certificate_hash": "86e2ae93233af1e805c4d084b888297a2e0043af"
+          }
+        },
+        {
+          "client_id": "645513485610-gjqlfe7isk2e6fk5n5eqehip73t5q9eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkRzqohByxigoav3PYxDxZi94VFkS6Hg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645513485610-gjqlfe7isk2e6fk5n5eqehip73t5q9eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+framework module Pods_Nirmalya_public {
+  umbrella header "Pods-Nirmalya_public-umbrella.h"
+
+  export *
+  module * { export * }
+}

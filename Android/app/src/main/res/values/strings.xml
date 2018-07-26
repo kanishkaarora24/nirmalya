@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Nirmalya</string>
+    <string name="content_description_logo">Nirmalya Logo</string>
+    <string name="login_button_text">Login</string>
+    <string name="guest_button_text">Guest</string>
+    <string name="about_nirmalya"><u>About Nirmalya</u></string>
+    <string name="what_we_offer"><u>WHAT WE OFFER</u></string>
+    <string name="register_user">Register</string>
+    <string name="AboutNirmalya">Nirmalya aims to provide technology and strategy based interventions in currently practiced solutions to increase their acceptability, sustainability, provide improved quality of products and services and innovate novel domains of waste utilisation.\n\n
+        Our vision is to establish a zero-waste society capable of dealing with waste management in a sustainable manner
+    </string>
+    <string name="iit_delhi">Indian Institute Of Technology Delhi \n Hauz Khas, New Delhi-110 016 </string>
+    <string name="address">Address:-</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="email_id"><u>nirmalya.iitd@gmail.com</u></string>
+    <string name="spinner_title">Select an Account Type</string>
+    <string name="what_is_nirmalya">Nirmalya is a non-profit organisation under the registered trust, Enactus IIT Delhi.</string>
+    <string-array name="user_types_array">
+        <item>Customer</item>
+        <item>Trainer</item>
+        <item>Manufacturer</item>
+    </string-array>
+    <string name="our_services_string">"We present an Integrated Zero Waste Plan i.e Kalp wherein we deal with the horticultural and the wet waste of the society through composting techniques, both at community and decentralised levels. Our approach has the following facets:Baseline Study of awareness of people about Waste Management, Awareness programmes to encourage people to start at source segregation, Pit Composting for management of wet waste at community Level,Home Composter for management of wet waste at household level,Mesh Composting for management of horticulture waste at Community level, Empowerment and Inclusion of Gardeners, waste pickers and residents as stakeholders in the process.
+
+"</string>
+
+    <string name="request_visit_text">You can request a visit from our team to find out how to proceed with your order. Ensure the following address is correct, and then press the \'Request A Visit\' button.</string>
+    <string name="request_visited_text">We have received your request for a visit.\nWe will get in touch with you shortly.</string>
+    <string name="request_a_visit_button_text">Request a Visit</string>
+    <string name="vist_requested_title">We\'ll get back to you soon</string>
+    <string name="request_a_visit_from_us_title">Request a visit from us</string>
+    <string name="our_services"><u>Our services</u></string>
+    <string name="our_products"><u>Our Products</u></string>
+    <string name="Intro_Our_Resources">Segregation is a very easy process, a small step that rewards our planet richly enabling complete management of waste, with wet waste being composted and dry waste being recycled. However, many of us are new to it, and may have some doubts regarding the process. Here are some commonly asked questions about waste segregation:</string>
+    <string name="Question_1">Why do I separate the wet waste from the dry waste?</string>
+    <string name="answer_1">It is important to do so because both these types of wastes are dealt with differently. Wet organic waste is converted into compost while dry waste such as paper, plastic, glass etc can be recycled. If the two wastes are mixed together, it is neither possible to compost the waste, nor can it be recycled.</string>
+    <string name="question_2">What constitutes dry waste?</string>
+    <string name="answer_2">Paper products, tetra packs, toothpaste cartons, cans, glass bottles, carry bags, milk packets, plastic and cardboard packaging material, food containers, PET bottles – basically any glass, plastic, paper or metal item that can be recycled is part of dry waste.</string>
+    <string name="question_3">What all constitutes wet(biodegradable) waste?</string>
+    <string name="answer_3">Vegetable peels, fruit peels, flowers, tea bags, coffee powder, coconut shell, fiber, egg shell etc.</string>
+    <string name="question_4">What about old batteries, are those dry waste?</string>
+    <string name="answer_4">Used batteries are part of electronic waste which comes under the category of hazardous waste. This type of waste needs to be disposed separately since it contains toxic chemicals and substances.\n E-waste includes: CFL bulbs, tubelights, chargers, mobile or computer components, old batteries, CDs, cassettes or any other discarded electronic items.</string>
+    <string name="question_5">Apart from E-waste, what other wastes can be hazardous?</string>
+    <string name="answer_5">These include old thermometers, used paint cans, pesticides, cleaning or caustic agents, used motor oil.</string>
+    <string name="question_6">What about reject waste, what is that?</string>
+    <string name="answer_6">This is the waste which cannot be recycled or composted, and unlike hazardous waste no useful components can be extracted from it at all. This includes used sanitary pads, diapers, some kinds of medical waste, sewage wastes etc. These must be disposed separately from the dry and wet wastes.</string>
+    <string name="question_7">How do I store milk packets for disposal once in a few days? Won’t there be a problem of flies coming on them?</string>
+    <string name="answer_7">Milk packets and other packaging material which was used to store food items should be emptied of their contents and then rinsed and dried before storage. Then there will be no problem of pests or bad odor.</string>
+    <string name="question_8">What do I do with old clothes/ shoes/ handbags/belts/toys?</string>
+    <string name="answer_8">If they are still in usable condition, they should be given to some organization that collects them. If they are totally unusable, or very damaged, they are still categorized as dry waste. If clothes are soiled with body fluids, they become sanitary waste. If they are soiled with paint, or any chemicals, they are household hazardous waste.</string>
+    <string name="question_9">What do I do with old crockery / non-stick pans etc?</string>
+    <string name="answer_9">If they are not broken, they are recyclable dry waste. If broken, debris or rubbish (inerts).\n The same is true for old furniture, old taps and sanitaryware.\n\n\n</string>
+    <string name="no_tasks_string">You will see your tasks here once you have selected a proposal and made the payment.</string>
+    <string name="no_proposals_string">You will see your proposals here once we have visited you.</string>
+    <string name="mark_completed">Mark Completed</string>
+    <string name="address_hint">Address</string>
+    <string name="nirmalya_website">http://nirmalya.ml/</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="foundation_school">Foundation School</string>
+    <string name="geetanjali_enclave">Geetanjali Enclave</string>
+    <string name="green_field_school">Green Field School</string>
+    <string name="vasant_kunj">Vasant Kunj</string>
+    <string name="indian_school_session">Indian School Session</string>
+    <string name="mis_session">MIS Session</string>
+    <string name="our_products_and_services">Our Products and Services</string>
+    <string name="name_hint">Name</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="acount_type_hint">Acount Type:</string>
+    <string name="address_optional_hint">Address (optional)</string>
+    <string name="register_button_text">Register</string>
+    <string name="sign_in_menu_text">Sign In</string>
+    <string name="sign_out_menu_text">Sign Out</string>
+    <string name="edit_profile_menu_text">Edit Profile</string>
+    <string name="download_button_text">Download</string>
+    <string name="select_this_proposal_button_text">Select this Proposal</string>
+    <string name="have_a_question">Have a question?</string>
+    <string name="query_fragment_subtitle">Send us a query with your photos and a message. We will get back to you as soon as possible.</string>
+    <string name="your_message_hint">Your Message</string>
+    <string name="select_images_button_text">Select Images</string>
+    <string name="send_button_text">Send</string>
+    <string name="estimated_date_of_completion_hint">Estimated date of completion</string>
+    <string name="accept_order_button_text">Accept Order</string>
+</resources>

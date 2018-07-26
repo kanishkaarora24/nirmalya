@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="8dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_of_the_member"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/sakshi_gupta" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/background_image_overlay"
+            app:layout_constraintBottom_toBottomOf="@+id/image_of_the_member"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_of_the_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view2"
+            tools:text="Sakshi Gupta" />
+
+        <ImageView
+            android:id="@+id/phone_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/name_of_the_member"
+            app:layout_constraintTop_toTopOf="@+id/phone_of_the_member"
+            app:srcCompat="@drawable/ic_baseline_call_24px" />
+
+        <TextView
+            android:id="@+id/phone_of_the_member"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="@+id/image_of_the_member"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/phone_icon"
+            app:layout_constraintTop_toBottomOf="@+id/designation_of_the_member"
+            tools:text="1234567890" />
+
+        <ImageView
+            android:id="@+id/email_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/email_of_the_member"
+            app:layout_constraintStart_toStartOf="@+id/name_of_the_member"
+            app:layout_constraintTop_toBottomOf="@+id/phone_icon"
+            app:srcCompat="@drawable/ic_baseline_alternate_email_24px" />
+
+        <TextView
+            android:id="@+id/email_of_the_member"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/view2"
+            app:layout_constraintEnd_toEndOf="@+id/image_of_the_member"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/email_icon"
+            app:layout_constraintTop_toBottomOf="@+id/phone_of_the_member"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="johndoe@example.com" />
+
+        <TextView
+            android:id="@+id/designation_of_the_member"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_vertical"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="@+id/name_of_the_member"
+            app:layout_constraintTop_toBottomOf="@+id/name_of_the_member"
+            tools:text="Project Executive" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nirmalya.enactus.nirmalya.activities.ProductsAndServicesActivity">
+
+    <android.support.v7.widget.Toolbar
+        app:theme="@style/ToolbarTheme"
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primaryColor"
+        android:elevation="4dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/my_toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="32dp">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/banner" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="@string/our_products_and_services"
+
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:backgroundTint="@android:color/white"
+                android:elevation="8dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="@string/what_we_offer"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Nirmalya sustains at the intersection of innovation and interaction. Our solutions vary from Zero waste customised models for societies to triple-decker ethnic home composters for decentralised management of waste."
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/our_products"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="#41EB80"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:backgroundTint="@android:color/white"
+                android:elevation="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+
+                        android:text="ruchitra"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Nirmalya sustains at the intersection of innovation and interaction. Our solutions vary from Zero waste customised models for societies to triple-decker ethnic home composters for decentralised management of waste."
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ruchitra" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+
+                        android:text="salient features"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Our salient features include Improved Aeration,Easy compost Harvesting,Additives to enhance the quality of compost and reduce the duration of composting,No foul Smell"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:backgroundTint="@android:color/white"
+                android:elevation="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="sugriha"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text=" Sugriha comes into picture as the successor of our conventional bins; a compact machine to be kept in your kitchens, lobby, veranda or gardens. With customisable aesthetics and manual operation, Sugriha is hygienic, odour free and imparts a traditional ethnic look to your house."
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sugriha" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="salient features"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHighlight="#88FFFF"
+
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Hygienic and Odourless,Faster Composting through Aerobic Methods,Minimal user effort,Provides Continuous compost,Ensures easy waste segregation."
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:backgroundTint="@android:color/white"
+                android:elevation="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="pitara"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text=" Pitara is an overground pit that comes in two sizes and targets to manage the wet waste of the society at community level.
+"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pitara" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="salient features"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHighlight="#88FFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="A bricked overground structure with suitable gaps to ensure aeration,Dimensions so chosen to ensure easy usage,A cross-network of bamboo at the base to ensure proper leachate drainage,Shed covering to safeguard it from the rains and excessive sunlight that may cause loss of moisture"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/our_services"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:backgroundTint="@android:color/white"
+                android:elevation="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="integrated models for schools"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Nirmalya offers it’s Jagruk Model to Schools wherein we deal with the horticulture waste of the school with special emphasis on the sensitisaton of the young generation on the serious issue of waste. Our approach has the following facets:Sustainable management of horticulture waste through mesh composting,Awareness of staff and students through our euphoric and interactive sessions, which sensitizes students about the magnitude of the problem and bring them to methods to efficiently deal with waste,Availability of organic manure for plants in school at practically no cost from its own composting hub."
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/intschool" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:backgroundTint="@android:color/white"
+                android:elevation="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="zero waste model"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/our_services_string"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/zwm" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
